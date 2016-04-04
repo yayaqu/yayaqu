@@ -1,0 +1,285 @@
+body,ul,img,li,a{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+ul li{list-style: none;}
+
+body{
+	font-size: 12px;
+	font-family: SimSun,Arial;
+}
+/*header*/
+.header{
+	width: 1000px;
+	margin: 5px auto;
+	position: relative;
+}
+.header img{
+
+}
+.header ul{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	display: inline-block;
+	float: right;
+}
+.header ul li{
+	float: right;
+    padding:0 10px;
+    border-right: 1px solid #dedede; 
+}
+.header ul li a{
+	margin-left: 16px;
+	color:black ;
+}
+.li1,.li2,.li3,.tab1{
+	background-image: url(images/fh_03.gif);
+    background-repeat: no-repeat;}
+.li1{
+	border-right: none!important;
+	background-position:2px -58px;
+
+}
+.li2{
+    background-position:4px -35px;
+}
+.li3{
+    background-position:4px -6px;
+
+}
+/*tab*/
+.tab{
+    width: 1349px;
+    background-color: hsl(0, 90%, 61%);
+
+}
+.tab ul{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+.tab ul li{
+	float: left;
+    padding: 11px 14px 0 16px;
+    border-left: 1px solid #ccc;
+    height: 29px;
+}
+.tab ul li a{
+    color: white;
+    font-size: 16px;
+
+}
+.tab ul li a:hover{
+	text-decoration: underline;
+}
+.tab1{
+	background-position: 22px -74px;
+	margin-left: 0px;
+	padding-right: 0px!important;
+}
+.tab1 a{
+	margin-left: 34px;
+}
+/*content-ad*/
+.content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.content-ad{
+	  
+}
+.content-ad li{
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	width: 43px;
+	margin: auto;
+
+}
+.content-ad a{
+	color:hsl(0, 0%, 17%);
+	font-size: 14px;
+	border-left: 1px solid #ccc;
+	padding-left: 7px;
+
+}
+.content-ad a:hover{
+    color: hsl(0, 90%, 61%);
+}
+.ad_01 a{
+	border-left: none!important;
+}
+/*adverst*/
+.adverst{
+	padding: 10px;
+	background-color: hsl(0, 0%, 95%);
+	border-top: 1px solid hsl(0, 0%, 87%);
+	border-bottom: 1px solid hsl(0, 0%, 87%);
+	height: 100%;
+	overflow: hidden;
+}
+.adverst ul{
+
+}
+.adverst li{
+	float: left;
+    width: 140px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.adverst li a{
+	color: hsl(207, 17%, 50%);
+}
+.adverst img{
+	width: 980px;
+}
+.adverst li a:hover{
+	text-decoration: underline;
+}
+.top-title{
+	margin-top: 16px;
+	height: 58px;
+	border-bottom: 2px solid #ccc;
+}
+.top-title ul li{
+	
+	width: 250px;
+	float: left;
+}
+.top-title li img{
+    float: left;
+}
+.top-title li a{
+	color: hsl(206, 100%, 23%);
+	display: block;
+    
+}
+.top-title li a:hover{
+	color: hsl(0, 90%, 61%);
+	text-decoration: underline;
+}
+.top_1{
+	margin-left: 64px;
+}
+.top_2{
+	color: black!important;
+	height: 26px;
+    line-height: 26px;
+}
+.top_3{
+	background: url(images/fh_04.gif) 0 -200px; 
+}
+.center{
+	width: 1000px;
+}
+.center-left{
+	width: 220px;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+}
+.cen-left{
+	width: 188px;
+	padding: 0 15px;
+	
+}
+
+
+.cen-left dl{
+	margin-top: 8px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 14px;
+	padding-bottom: 10px;
+}
+.cen-left dt{
+	height: 24px;
+	line-height: 24px;
+}
+.cen-left dd{
+	height: 60px;
+	margin: 5px 0;
+	line-height: 20px;
+	color: gray;
+}
+.cen-left dd img{
+	float: left;
+	margin-right: 10px;
+}
+
+
+.cen-left a{
+	color: hsl(206, 100%, 23%);
+}
+.cen-top1{
+	width: 188px;
+	padding-top: 14px;
+	line-height: 24px;
+	position: relative;
+}
+.cen-top2{
+	height: 40px!important;
+}
+#cal_01{
+	float: right;
+	height: 24px;
+	width: 120px;
+	position:absolute;
+	top: 14px;
+	right: 0;
+}
+.cen-left a:hover{
+	text-decoration: underline;
+	color: hsl(0, 90%, 61%);
+}
+.cen-top1-a{
+	font-size: 14px;
+	color: hsl(0, 0%, 17%)!important;
+}
+.cen-top1-a:hover{
+	color: hsl(0, 90%, 61%)!important;
+}
+.center-right{
+	float: right;
+	width: 765px;
+}
+.cen-right-left a{
+	line-height: 28px;
+	font-size: 14px;
+	color: hsl(206, 100%, 23%);
+}/*列表里的a的格式*/
+.cen-right-left{
+	width: 366px;
+    float: left;
+}
+.cen-right-left a:hover{
+	text-decoration: underline;
+	color: hsl(0, 90%, 61%);
+}/*列表里的a的hover的格式*/
+.strong{
+	font-weight: bold;
+}/*小标题加粗的格式*/
+.cen-right-left dd,.cen-right-left dt,.crl ul li,.crl-cai,.crl-qiche{
+	margin-left: 25px;
+}
+.crl {
+	border-top: 1px solid #ccc;
+}
+.border{/*带有框的列表的格式*/
+	margin-left: 0;
+	border: 1px solid #ccc;
+	padding: 10px 20px;
+	margin-top: 18px;
+}
+.cen-right-rit{
+	width: 360px;
+	float: right;
+}
+.cen-lunbo{
+	width: 360px;
+	height: 249px;
+}
